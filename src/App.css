@@ -7,6 +7,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 3vh;
+  padding: 5vh 2vh 10vh 2vh;
 }
 aside {
   padding: 5% 10% 5% 10%;
@@ -25,19 +27,77 @@ aside p {
 #Offer {
   background-color: rgb(96, 85, 165);
   color: white;
-  width: 85%;
+  width: 100%;
   border-radius: 1em;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  box-shadow: 0px 3px gray;
   text-align: center;
+  padding: 1% 0% 1% 0%;
+  outline-style: none;
 }
 #Offer span {
   font-family: "PoppinsBold";
+  font-size: 0.8rem;
+  margin-left: 10%;
 }
 #Offer p {
   font-family: "Poppinsregular";
+  font-size: 0.8rem;
+  margin-right: 10%;
 }
+#formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2vh;
+}
+form {
+  padding: 5%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+  border-radius: 1em;
+  box-shadow: 0px 5px gray;
+}
+form input {
+  font-size: 0.8em;
+  border-radius: 1vh;
+  padding: 3%;
+  border: solid rgba(192, 187, 187, 0.63);
+  outline-style: none;
+  font-family: "PoppinsBold";
+}
+form button {
+  font-size: 0.8em;
+  font-family: "PoppinsBold";
+  background-color: rgb(56, 204, 140);
+  color: white;
+  border-radius: 1vh;
+  outline-style: none;
+  padding: 3% 5%;
+  box-shadow: 0px 3px gray;
+}
+form p {
+  text-align: center;
+  color: rgba(128, 128, 128, 0.555);
+  font-family: "PoppinsBold";
+  font-size: 0.8em;
+}
+form span {
+  color: red;
+}
+@media (min-width: 768px) {
+  .App {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 5% 7%;
+  }
+  aside {
+    text-align: start;
+    padding-left: 5vh;
+  }
+}
+
 @font-face {
   font-family: "PoppinsBold";
   src: url(/public/fonts/Poppins-Bold.ttf);
