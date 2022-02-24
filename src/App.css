@@ -2,6 +2,7 @@ body {
   background-color: rgb(255, 122, 122);
   background-image: url("/public/imagens/bg-intro-desktop.png");
   font-size: 16px;
+  overflow-y: auto;
 }
 .App {
   display: flex;
@@ -55,17 +56,35 @@ form {
   background-color: white;
   display: flex;
   flex-direction: column;
-  gap: 3vh;
   border-radius: 1em;
   box-shadow: 0px 5px gray;
+  gap: 0.5vh;
 }
-form input {
+#errorMsg {
+  font-family: "PoppinsRegular";
+  text-align: right;
+  margin-top: 0%;
+  color: red;
+}
+.dataValid {
   font-size: 0.8em;
   border-radius: 1vh;
   padding: 3%;
   border: solid rgba(192, 187, 187, 0.63);
   outline-style: none;
   font-family: "PoppinsBold";
+  box-sizing: border-box;
+}
+.dataInvalid {
+  font-size: 0.8em;
+  border-radius: 1vh;
+  padding: 3%;
+  border: solid red;
+  outline-style: none;
+  font-family: "PoppinsBold";
+  background-image: url(/public/imagens/icon-error.svg);
+  background-repeat: no-repeat;
+  background-position: 95%;
 }
 form button {
   font-size: 0.8em;
@@ -86,7 +105,12 @@ form p {
 form span {
   color: red;
 }
+
 @media (min-width: 768px) {
+  body{
+    overflow-y: hidden;
+   
+  }
   .App {
     display: grid;
     grid-template-columns: auto auto;
