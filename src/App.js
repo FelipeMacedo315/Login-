@@ -35,25 +35,25 @@ function App() {
             <form>
               <Inputs
                 type="text"
-                placeholder={"First Name"}
+                name={'First Name'}
                 className={classFirstName}
                 textError={erroMsg.firstNameErro}
               />
               <Inputs
                 type="text"
-                placeholder={"Last Name"}
+                name={'Last Name'}
                 className={classLastName}
                 textError={erroMsg.lastNameErro}
               />
               <Inputs
                 type="email"
-                placeholder={"Email Address"}
+                name={'Email Address'}
                 className={classEmail}
                 textError={erroMsg.emailErro}
               />
               <Inputs
                 type="password"
-                placeholder={"Password"}
+                name={'Password'}
                 className={classPassword}
                 textError={erroMsg.passwordErro}
               />

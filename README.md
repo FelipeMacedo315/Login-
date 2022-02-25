@@ -10,7 +10,7 @@
 
 <img src="public\imagens\ReadmeImg1.png" alt="Sign-up Image"/>
 <img src="public\imagens\ReadmeImg2.png" alt="Sign-up Image">
-<img src="public\imagens\mobile.gif" alt="Sign-up Image">  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &
+<img src="public\imagens\mobile.gif" alt="Sign-up Image">  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; 
 <img src="public\imagens\mobile (1).gif" alt="Sign-up Image">
 
 ### Funcionalidades:

@@ -9,18 +9,18 @@ function Inputs(props) {
       <input
         className={props.className}
         type={props.type}
-        placeholder={props.placeholder}
+        placeholder={props.name}
         onChange={(d) => {
-          if (props.placeholder === "First Name") {
+          if (props.name === "First Name") {
             data.firstName = d.target.value;
           }
-          if (props.placeholder === "Last Name") {
+          if (props.name=== "Last Name") {
             data.lastName = d.target.value;
           }
-          if (props.placeholder === "Email Address") {
+          if (props.name === "Email Address") {
             data.email = d.target.value;
           }
-          if (props.placeholder === "Password") {
+          if (props.name === "Password") {
             data.password = d.target.value;
           }
         }}
